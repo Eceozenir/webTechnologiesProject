@@ -1,0 +1,120 @@
+.placesHeader{
+        margin-left: 200px;
+        margin-top: 50px;
+}
+ body{
+  background-image: url(/assets/img/photo-1683009427500-71296178737f.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+.places-container{
+    overflow: hidden;
+    background-position: center; 
+    /* opacity: .8;   */
+    background-size: cover;
+    height: 100vh; 
+    width: 100vw; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.places-navbar{
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-right: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);     
+    position: sticky;
+    top: 0;
+ }
+ .places-navbar a{
+    /* border: solid; */
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+    list-style-type: none;
+    text-decoration: none;
+     margin-top: 30px; 
+    transition: 0.4s ease all;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.places-navbar a:hover{
+    background-color: #3887BE;
+}
+
+.places-navbar  a{
+    text-decoration: none;
+    color: black;
+}
+.placesImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.placesImg1 img{
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.akaretler{
+    border: solid;
+    text-align: center;
+    background-color: antiquewhite;
+    padding:10px ;
+    height: 200px;
+    width: 800px ;
+}
+
+
+.placesImg2 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+   margin-left: 300px;
+   margin-top: 0px;
+   padding:10px ;
+}
+
+.misir{
+    border: solid;
+    text-align: center;
+    width: 900px;
+    margin-left: 250px;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    padding:10px ;
+}
+
+.rum{
+    border: solid;
+    text-align: center;
+    width: 900px;
+    margin-left: 250px;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    padding:10px ;
+}
+
+.maiden{
+    border: solid;
+    text-align: center;
+    width: 900px;
+    margin-left: 250px;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    padding:10px ;
+}

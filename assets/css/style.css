@@ -1,0 +1,161 @@
+ body{
+  background-image: url(/assets/img/photo-1683009427500-71296178737f.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+ *{
+    margin: 0 auto;
+    box-sizing: border-box;
+padding: 0;
+ }
+ 
+ .container{
+     background-position: center; 
+     background-repeat: no-repeat;
+     /* opacity: .8;   */
+     background-size: cover;
+     height: 80vh; 
+     width: 100vw; 
+     overflow: hidden !important;
+    
+} 
+
+
+
+.indexParagraph{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 800px;
+}
+
+
+
+.navbar{
+    width: 100vw;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-right: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);     
+    position: sticky;
+    top: 0;
+}
+  
+
+.navbar a{
+    /* border: solid; */
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+    list-style-type: none;
+    text-decoration: none;
+     margin-top: 30px; 
+    transition: 0.4s ease all;
+    text-align: center;
+    padding: 5px;
+}
+.navbar a:hover{
+    background-color: #3887BE;
+}
+
+.navbar  a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.img-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 80px;
+    width: 100%;
+    z-index: 9999;
+    margin-top: 20px;
+}
+.img-box input{
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+
+.img-box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.img-box img:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2);
+}
+
+.img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+.fotoEdit {
+    transition: transform 0.3s ease;
+
+}
+.fotoEdit:hover {
+    transform: scale(1.1);
+}
+.img2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+.img3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+.img4 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+.palace{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+
+.btns{
+    padding: 5px;
+    border: none;   
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+
+.btns:hover{
+    background-color: #3887BE;
+}
+
+
+
+
+
+.footer{
+    margin-top: 50px;
+    width: 80vw;
+    text-align: center;
+    color: white;
+}
